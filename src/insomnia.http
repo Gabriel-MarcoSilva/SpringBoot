@@ -1,1 +1,33 @@
-GET http://localhost:8080/products
+# GET http://localhost:8080/parking-spot HTTP/1.1
+
+# GET http://localhost:8080/parking-spot/b3483e0d-8035-4162-9875-41632178db12 HTTP/1.1
+
+# DELETE  http://localhost:8080/parking-spot/b3483e0d-8035-4162-9875-41632178db12 HTTP/1.1
+
+# POST http://localhost:8080/parking-spot
+# content-type: application/json
+
+# {
+#     "parkingSpotNumber": "2057",
+#     "licensePlateCar":"RRS0587",
+#     "brandCar":"ferrari",
+#     "modelCar": "q1",
+#     "colorCar":"black",
+#     "responsibleName": "Carla Daniela",
+#     "apartment":"278",
+#     "block":"B"
+# }
+
+# PUT http://localhost:8080/parking-spot/1c250b8b-60ac-4623-9106-52f85176d61b
+# content-type: application/json
+
+# {
+#     "parkingSpotNumber": "2056",
+#     "licensePlateCar":"RRS0597",
+#     "brandCar":"ferrari",
+#     "modelCar": "q1",
+#     "colorCar":"black",
+#     "responsibleName": "Carla Daniela",
+#     "apartment":"278",
+#     "block":"B"
+# }
